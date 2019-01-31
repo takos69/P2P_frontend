@@ -11,30 +11,39 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 <body>
-	<header>
+  <header>
     <nav class="container">
       <a class="logo" href="">
         <span>P</span>
         <span>2</span>
         <span>P</span> 
         <span>З</span>
-				<span>А</span>
-				<span>Й</span>
-				<span>М</span>
+        <span>А</span>
+        <span>Й</span>
+        <span>М</span>
       </a>
       <div class="nav-toggle"><span></span></div>
       <ul id="menu">
-		    <li><a href="index.html">Главная</a></li>
-		    <li><a href="borrow.html">Взять займ</a></li>
-		    <li><a href="pay.html">Оплатить</a></li>
-		    <li><a href="invest.html">Инвестировать</a></li>
-		    <li><a href="login_account.html">Личный кабинет</a></li>
-		    <li><a href="about.html">О нас</a></li>
-		    <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="borrow.html">Взять займ</a></li>
+        <li><a href="pay.html">Оплатить</a></li>
+        <li><a href="invest.html">Инвестировать</a></li>
+        <li><a href="login_account.html">Личный кабинет</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
       </ul>
     </nav>
   </header>
-  
+  <div class="container">
+      <div class="form">
+        <h2>Инвестировать</h2>
+        <form action="localhost:8080/sample" method="post">
+          <input type="text" placeholder="Введите сумму инвестиции">
+          <input type="text" placeholder="Введите срок инвестиции">
+          <input type="submit" value="Подать заявку">
+        </form>
+      </div>
+  </div> <!-- конец div class="container"-->
 <footer>
   <div class="container">
     <div class="footer-col"><span>&copy; 2019 Все права защищены «P2P Займы»</span></div>
