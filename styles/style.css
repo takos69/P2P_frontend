@@ -4,14 +4,11 @@ padding: 0;
 margin: 0;
 transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
 }
-.person{
-	float:right;
-}
 .person a{
+	float:right;
+	max-width: 1600px;
 	display: block;
 	position: relative;
-	top:30px;
-	right:20px;
 	background-color: #f1f1f1;
 	text-decoration: none;
 	color:#4CAF50;
