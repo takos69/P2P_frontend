@@ -211,3 +211,6 @@ table{
   width: 95%;
   max-width: 100%;
 }
+.userfoto {
+	max-width: 30%;
+}
