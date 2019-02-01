@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P2P Займы</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a class="logo" href="">
+            <span>P</span>
+            <span>2</span>
+            <span>P</span> 
+            <span>З</span>
+            <span>А</span>
+            <span>Й</span>
+            <span>М</span>
+      </a>  
+      <div class="person">
+        <a href="sign_page.html">Вход</a>
+      </div>    
+        <div class="nav-toggle"><span></span></div>
+        <ul id="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="borrow.html">Взять займ</a></li>
+        <li><a href="pay.html">Оплатить</a></li>
+        <li><a href="invest.html">Инвестировать</a></li>
+        <li><a href="login_account.html">Личный кабинет</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main">
+    <div class="container">
+      <h1>ДОГОВОР ЗАЙМА</h1>
+      <br>
+      <div class="row">
+          <h2>1. ПРЕДМЕТ ДОГОВОРА</h2>
+          <br>
+          <p>1.1. По данному договору Заимодавец передает в собственность Заемщику денежные средства в размере _______ рублей, а Заемщик обязуется возвратить Заимодавцу сумму займа и начисленные на нее проценты на условиях, предусмотренных Договором.</p>      
+          <p>1.2. Размер процентов по договору составляет _____ от суммы займа</p>    
+          <br>
+          <h2>2. ПОРЯДОК ПРЕДОСТАВЛЕНИЯ И ВОЗВРАТА СУММЫ ЗАЙМА</h2>
+          <br>
+          <p>2.1. Заимодавец передает Заемщику сумму займа "___"__________ ____ г. Факт передачи денежных средств подтверждается распиской Заемщика.</p>
+          <p>2.2. Заемщик возвращает Заимодавцу заемные денежные средства и начисленные проценты "___"__________ ____ г.</p>
+          <p>2.3. Сумма займа возвращается Заемщиком путем _________.</p>
+          <p>2.4. Подтверждением возврата заемных денежных средств является расписка, которая выдается займодавцем.</p>
+          <br>
+          <h2>3. ПРОЦЕНТЫ ЗА ПОЛЬЗОВАНИЕ СУММОЙ ЗАЙМА</h2>
+          <br>
+          <p>3.1. Проценты за пользование займом начинают начисляться со дня передачи денежных средств Заемщику.</p>
+          <p>3.2. Проценты за пользование суммой займа уплачиваются ежемесячными платежами в срок до _____ числа каждого месяца до момента возврата суммы займа.</p>
+          <br>
+          <h2>4. ОТВЕТСТВЕННОСТЬ СТОРОН </h2>
+          <br>
+          <p>4.1. За несвоевременный возврат суммы займа Заемщик выплачивает Займодавцу неустойку в размере _____% от неуплаченной в срок суммы займа за каждый день просрочки.</p>
+          <br>
+          <h2>5. ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ </h2>
+          <br>
+          <p>5.1. Договор считается заключенным с момента фактической передачи Заимодавцем Заемщику суммы займа в соответствии с п. 2.1 настоящего Договора.</p>
+          <p>5.2. Договор действует до полного выполнения Заемщиком своих обязательств по возврату суммы займа и выплате процентов, что подтверждается распиской Заимодавца.</p>
+          <p>5.3. Договор составлен в двух экземплярах, по одному экземпляру для каждой из сторон.</p>
+      <div class="check_status">
+        <div>
+          <input type="checkbox" id="agree"
+                 checked>
+          <label for="scales">Я согласен</label>
+                <input type="checkbox" id="do_not_agree"
+                 checked>
+          <label for="scales">Я не согласен</label>
+        </div>
+        <div>
+          <input type="submit" value="Отправить">
+        </div>
+      </div>
+     </div>
+      <br>
+    </div>
+</div>
+  <footer style="position: static;">
+    <div class="container">
+      <div class="footer-col"><span>&copy; 2019 Все права защищены «P2P Займы»</span></div>
+      <div class="footer-col">
+        <div class="social-bar-wrap">
+          <a title="Facebook" href="" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a title="Twitter" href="" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a title="Pinterest" href="" target="_blank"><i class="fa fa-pinterest"></i></a>
+          <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <a href="contacts.html">Контакты</a>
+      </div>
+    </div>
+  </footer>
+<script>
+$('.nav-toggle').on('click', function(){
+$('#menu').toggleClass('active');
+});
+</script>
+</body>
+</html>
