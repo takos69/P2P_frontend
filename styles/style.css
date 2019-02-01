@@ -168,6 +168,7 @@ input[type=submit]{
 .col-1-1 {
   width: 33.3333333333%;
   float: left;
+  padding: 10px;
 }
 .col-1-2 {
   width: 66.6666666667%;
@@ -180,6 +181,7 @@ input[type=submit]{
 .col-2-2 {
   width: 33.3333333333%;
   float: left;
+  padding: 10px;
 }
 .container:after, .row:after {
   content: "";
@@ -203,4 +205,9 @@ input[type=submit]{
 }
 .check_status{
 	text-align: center;
+}
+table{
+	position: relative;
+  width: 95%;
+  max-width: 100%;
 }
